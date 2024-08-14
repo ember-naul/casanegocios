@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif; 
+}
+
+header {
+    background-color: #2B313D;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.logo {
+    flex: 1;
+}
+
+.logo img {
+    max-height: 65px; 
+    width: auto; 
+    margin-left: 50px;
+}
+
+
+nav {
+    flex: 2;
+    display: flex; 
+    justify-content: center; 
+    margin-right: 150px;
+    font-size: larger;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px; 
+}
+
+nav a {
+    color: #fff; /* Cor padrão */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Transição suave para a mudança de cor */
+}
+
+nav a:hover {
+    color: #FFD700; /* Cor quando o mouse está sobre o link */
+    text-decoration: underline; /* Sublinha o texto ao passar o mouse */
+}
+
+.auth-buttons {
+    margin-left: auto; 
+    display: flex;
+    align-items: center;
+    margin-right: 70px; 
+}
+
+.auth-buttons .button {
+    background-color: #38B6FF; 
+    color: #fff; 
+    padding: 10px 15px; 
+    margin-left: 10px; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+}
+
+.auth-buttons .button:hover {
+    background-color: #2a9fd8; 
+}
+
+main {
+    padding-top: 80px; 
+}
+
+section {
+    padding: 40px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2B313D;
+    color: #fff;
+}
+
+.font-family-karla {
+    font-family: 'Poppins', sans-serif; 
+}
